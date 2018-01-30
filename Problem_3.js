@@ -50,6 +50,7 @@ class TableGenerator {
     console.log();
     let table = `<table>${this.generateTableHeader()}${this.generateTableBody()}</table>`;
     console.log(table);
+    document.body.innerHTML = table;
   }
 }
 

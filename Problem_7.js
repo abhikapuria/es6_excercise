@@ -17,6 +17,4 @@ input[Symbol.iterator] = function*() {
     ));
 };
 
-for (let property of input) {
-  property;
-}
+[...input]
